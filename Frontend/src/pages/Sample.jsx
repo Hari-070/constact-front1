@@ -14,7 +14,7 @@ const Sample=()=>{
 
     const handleSubmit=async(e)=>{              
         try {
-            await axios.post("http://localhost:3000/addContact",{user,Cname,Cnumber,Cmail,Cpic})
+            await axios.post("https://contact-front-ashen.vercel.app/addContact",{user,Cname,Cnumber,Cmail,Cpic})
             .then(res=>{
                 toast.success(res.data)
             })

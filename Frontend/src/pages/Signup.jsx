@@ -15,7 +15,7 @@ const Signup=()=> {
     const handleSubmit=async(e)=>{
         e.preventDefault()
         try {
-          await axios.post("http://localhost:3000/signup",{username,email,password})
+          await axios.post("https://contact-front-ashen.vercel.app/signup",{username,email,password})
           .then(res=>{
             toast.success("userRegistered successfully!")
             setData(res.data)

@@ -23,7 +23,7 @@ const Home=()=> {
   const handleDelete=async(user,Cname)=>{
     console.log(user,Cname)
     try {
-      await axios.post("http://localhost:3000/deleteContact",{user,Cname})
+      await axios.post("https://contact-front-ashen.vercel.app/deleteContact",{user,Cname})
       .then(res=>{
         toast.success(res.data)
         getC()
@@ -41,7 +41,7 @@ const Home=()=> {
   const getC=async()=>{
     console.log("inside get")
     try {
-      await axios.post("http://localhost:3000/getContact",{username})
+      await axios.post("https://contact-front-ashen.vercel.app/getContact",{username})
       .then(res=>{
         setContacts(res.data)
         console.log(res.data)

@@ -14,7 +14,7 @@ const Edit=(props)=>{
 
     const handleSubmit=async()=>{
         try {
-            await axios.post("http://localhost:3000/update",{user,Cname,upname,upnum,upmail})
+            await axios.post("https://contact-front-ashen.vercel.app/update",{user,Cname,upname,upnum,upmail})
             .then(res=>{
                 toast.success(res.data)
             })
