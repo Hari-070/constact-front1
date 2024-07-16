@@ -53,7 +53,7 @@ const Login=()=> {
         <button type='submit' style={{backgroundColor:"rgba(5, 219, 19, 0.74)",border:"none"}}>Login</button>
       </form>
       
-      <h2><a href='/signup' style={{color:"rgba(5, 219, 19, 0.74)",fontSize:'15px'}}>New here? Signup</a></h2>
+      <h2><a href='https://easycontact-tau.vercel.app/signup' style={{color:"rgba(5, 219, 19, 0.74)",fontSize:'15px'}}>New here? Signup</a></h2>
       </div>
     </div>
   )

@@ -45,7 +45,7 @@ const Signup=()=> {
         <input type='password'  placeholder='password' onChange={(e)=>{setPassword(e.target.value)}}/>
         <button type='submit' style={{backgroundColor:"rgba(5, 219, 19, 0.74)",borderRadius:"10px",border:"none"}}>Signup</button>
         </form>
-        <h2><a href='/login' style={{color:"rgba(5, 219, 19, 0.74)",fontSize:'15px'}}>Already have an account?</a></h2>
+        <h2><a href='https://easycontact-tau.vercel.app/login' style={{color:"rgba(5, 219, 19, 0.74)",fontSize:'15px'}}>Already have an account?</a></h2>
       </div>
     </div>
   )
